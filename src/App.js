@@ -17,6 +17,8 @@ import SignIn3Screen from './components/signin/SignIn3';
 import Registration from "./components/signin/Registration";
 import DashBoard from "./DashBoard";
 import Events from "./components/events";
+import Quiz from "./components/quiz/quiz";
+import Result from "./components/result/result";
 
 function App() {
     return (
@@ -52,6 +54,15 @@ function App() {
                         path="/events"
                         element={<Events />}
                     />
+                    <Route
+                        path="/quiz"
+                        element={<Quiz />}
+                    />
+                    <Route
+                        path="/result"
+                        element={<Result />}
+                    />
+                    
 
                     <Route
                         path="*"

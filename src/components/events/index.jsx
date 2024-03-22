@@ -1,7 +1,9 @@
 import React from "react";
 
 function EventsPage() {
-  return <div>Test</div>;
+  return <div>
+    
+  </div>;
 }
 
 export default EventsPage;

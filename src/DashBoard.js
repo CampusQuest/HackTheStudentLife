@@ -8,6 +8,8 @@ import chatText from './assets/chatText.png';
 import './DashBoard.css';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -20,6 +22,11 @@ export default function DashBoard() {
 
     const handleClick = () => {
         setClicked(!clicked);
+    }
+    let navigate = useNavigate(); 
+
+    const handleButtonClick = () => {
+        return navigate('/quiz');
     }
     return (<div>
         <div className='header-container'>
@@ -36,7 +43,7 @@ export default function DashBoard() {
                     {clicked ? <Box sx={boxStyle} textAlign='center'>
                         <div className='box-text' style={{display: 'block'}}>Explore study spots</div>
                         
-                        <Button variant="contained" color="primary" sx={buttonStyle}>
+                        <Button onClick={handleButtonClick} variant="contained" color="primary" sx={buttonStyle}>
                             BEGIN
                         </Button>
                     </Box> : ''}
