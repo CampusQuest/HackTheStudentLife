@@ -14,6 +14,7 @@ import ARPage from './components/camera';
 import SignIn1Screen from './components/signin/SignIn1';
 import SignIn2Screen from './components/signin/SignIn2';
 import SignIn3Screen from './components/signin/SignIn3';
+import Registration from "./components/signin/Registration";
 
 function App() {
     return (
@@ -32,6 +33,10 @@ function App() {
                     <Route
                         path="/signin3"
                         element={<SignIn3Screen />}
+                    />
+                    <Route
+                        path="/registration"
+                        element={<Registration />}
                     />
                     <Route
                         path="/dashboard"
