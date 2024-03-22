@@ -1,0 +1,47 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  color: #76C4CE;
+  font-size: 1.5rem;
+  height: 60px;
+  font-weight: 700;
+}
+
+.main-container {
+  display: flex;
+}
+
+.star-container * {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+
+.star {
+  width: 4.5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.chat {
+  width: 8rem;
+  margin-bottom: -4rem;
+}
+
+.box-text {
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white
+}
+
+.vertical-row {
+  margin: 0;
+}
+
