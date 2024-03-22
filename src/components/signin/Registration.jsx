@@ -91,6 +91,7 @@ const Registration = () => {
         >
           <option value="Chess">Chess</option>
           <option value="Debate">Debate</option>
+          <option value="Video Game">Video Game</option>
           <option value="Other">Other</option>
         </select>
         <Link to="/dashboard">
