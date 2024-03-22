@@ -16,8 +16,7 @@ export default function DashBoard() {
     const boxStyle = {backgroundColor: '#5DADEC', borderRadius: '1rem'};
     const buttonStyle = {backgroundColor: 'white', borderRadius: '1rem', color: 'black', fontWeight: 'bold'};
     const numElements = 4;
-    const clickedState = new Array(numElements).fill(false);
-    const [clicked, setClicked] = React.useState(clickedState);
+    const [clicked, setClicked] = React.useState(false);
 
     const handleClick = () => {
         setClicked(!clicked);
