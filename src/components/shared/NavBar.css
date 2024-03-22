@@ -1,0 +1,32 @@
+/* NavBar.css */
+
+.navbar {
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom */
+  width: 100%; /* Full width */
+  background-color: #333; /* Example background color */
+  overflow: hidden; /* Hide overflow */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow to the top of the navbar */
+  z-index: 1000; /* Ensure the navbar is above other items */
+}
+
+.nav-items {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Layout nav items in a row */
+  justify-content: space-around; /* Even spacing between items */
+}
+
+.nav-item a {
+  display: block; /* Block level links */
+  padding: 15px; /* Padding for tap area */
+  color: white; /* Text color */
+  text-decoration: none; /* No underlines on links */
+  text-align: center; /* Center text */
+}
+
+.nav-item a:hover {
+  background-color: #ddd; /* Hover state */
+  color: black; /* Text color for hover state */
+}
