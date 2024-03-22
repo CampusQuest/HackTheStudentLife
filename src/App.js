@@ -15,6 +15,7 @@ import SignIn1Screen from './components/signin/SignIn1';
 import SignIn2Screen from './components/signin/SignIn2';
 import SignIn3Screen from './components/signin/SignIn3';
 import Registration from "./components/signin/Registration";
+import DashBoard from "./DashBoard";
 
 function App() {
     return (
@@ -40,7 +41,7 @@ function App() {
                     />
                     <Route
                         path="/dashboard"
-                        element={<HomePage />}
+                        element={<DashBoard />}
                     />
 
                     <Route
