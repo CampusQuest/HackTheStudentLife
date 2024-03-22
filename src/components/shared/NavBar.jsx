@@ -20,7 +20,7 @@ const NavBar = () => {
         </li>
         <li className="nav-item">
           <Link to='/events'>
-            <img src={calendar} alt="calendar" />
+            <img src={calendar} alt="events" />
           </Link></li>
       </ul>
     </nav>

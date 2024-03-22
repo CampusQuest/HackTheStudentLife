@@ -16,6 +16,7 @@ import SignIn2Screen from './components/signin/SignIn2';
 import SignIn3Screen from './components/signin/SignIn3';
 import Registration from "./components/signin/Registration";
 import DashBoard from "./DashBoard";
+import Events from "./components/events";
 
 function App() {
     return (
@@ -42,6 +43,14 @@ function App() {
                     <Route
                         path="/dashboard"
                         element={<DashBoard />}
+                    />
+                    <Route
+                        path="/camera"
+                        element={<ARPage />}
+                    />
+                    <Route
+                        path="/events"
+                        element={<Events />}
                     />
 
                     <Route
