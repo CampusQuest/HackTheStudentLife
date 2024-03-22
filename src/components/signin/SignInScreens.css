@@ -1,0 +1,38 @@
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2em;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(180deg, #a3efb1 0%, #b2dfdb 50%, #c4ceee 100%);
+  font-family: "Arial", sans-serif; /* Use a font of your choice */
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+  color: #fff; /* Adjust color to match the design */
+  font-size: 2.5rem; /* Adjust font size to match the design */
+}
+
+.continue-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  outline: none;
+}
+
+.continue-button:hover {
+  background-color: #f8f8f8;
+}
